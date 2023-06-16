@@ -2,17 +2,17 @@ import Links from '../components/Links.tsx';
 
 const productConsumers = [
   {
-    path: '/products/crm/consumers/lanit',
+    path: 'products/crm/consumers/lanit',
     name: 'Lanit',
     element: <div>Lanit</div>,
   },
   {
-    path: '/products/crm/consumers/norbit',
+    path: 'products/crm/consumers/norbit',
     name: 'Norbit',
     element: <div>Norbit</div>,
   },
   {
-    path: '/products/crm/consumers/nsystems',
+    path: 'products/crm/consumers/nsystems',
     name: 'Nsystems',
     element: <div>Nsystems</div>,
   },
@@ -20,7 +20,7 @@ const productConsumers = [
 
 const productRoutes = [
   {
-    path: '/products/crm',
+    path: 'products/crm',
     name: 'CRM',
     element: (
       <>
@@ -30,12 +30,12 @@ const productRoutes = [
     ),
   },
   {
-    path: '/products/erp',
+    path: 'products/erp',
     name: 'ERP',
     element: <div>ERP</div>,
   },
   {
-    path: '/products/scm',
+    path: 'products/scm',
     name: 'SCM',
     element: <div>SCM</div>,
   },
@@ -48,7 +48,7 @@ export const mainRoutes = [
     element: <div>test</div>,
   },
   {
-    path: '/products',
+    path: 'products',
     name: 'Our Products',
     element: (
       <div>
@@ -60,12 +60,12 @@ export const mainRoutes = [
     ),
   },
   {
-    path: '/contact',
+    path: 'contact',
     name: 'Contact Us',
     element: <div>contact</div>,
   },
   {
-    path: '/about',
+    path: 'about',
     name: 'About',
     element: <div>about</div>,
   },
