@@ -7,7 +7,7 @@ const headerLinks = mainRoutes.map((route) => (
   <LinkButton key={route.path} path={route.path} name={route.name} />
 ));
 
-const router = createBrowserRouter(routes, { basename: '/web-system-lab1-1/' });
+const router = createBrowserRouter(routes, { basename: '/web-system-lab1-1' });
 
 const App: FC = () => {
   return (
