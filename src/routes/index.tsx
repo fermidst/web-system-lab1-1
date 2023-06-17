@@ -48,7 +48,7 @@ export const mainRoutes = [
     element: <div>test</div>,
   },
   {
-    path: 'products',
+    path: '/products',
     name: 'Our Products',
     element: (
       <div>
@@ -60,12 +60,12 @@ export const mainRoutes = [
     ),
   },
   {
-    path: 'contact',
+    path: '/contact',
     name: 'Contact Us',
     element: <div>contact</div>,
   },
   {
-    path: 'about',
+    path: '/about',
     name: 'About',
     element: <div>about</div>,
   },
